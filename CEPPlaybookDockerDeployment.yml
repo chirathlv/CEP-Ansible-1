@@ -1,5 +1,4 @@
 - hosts: demo
-  user: ansible
   become: true
   tasks:
   - name: Install git and docker
